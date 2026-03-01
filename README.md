@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SKINDOX
 
-## Getting Started
+Modern skincare web platform built with Next.js (App Router) + TypeScript.
+Designed with modular architecture and scalability in mind.
 
-First, run the development server:
+🔗 Live Demo: https://skindox-kljn.vercel.app
+🔗 Repository: https://github.com/amkaamarsaikhan/skindox
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+⸻
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stack
+    •    Next.js (App Router)
+    •    TypeScript (strict mode)
+    •    ESLint
+    •    Vercel Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+⸻
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Architecture Overview
 
-## Learn More
+The project follows a modular, component-driven architecture:
+    •    app/ → Route-level structure (App Router)
+    •    components/ → Reusable UI blocks
+    •    public/ → Static assets
+    •    types/ → Shared TypeScript types (scalable structure)
 
-To learn more about Next.js, take a look at the following resources:
+Architectural Principles
+    •    Separation of UI and page logic
+    •    Type-safe component contracts
+    •    Scalable folder structure
+    •    Prepared for future API integration
+    •    Minimal client-side state
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⸻
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Performance Strategy
+    •    Route-based code splitting (Next.js)
+    •    Server Components where applicable
+    •    Optimized image handling
+    •    SEO-ready structure
+GitHub
+GitHub - amkaamarsaikhan/skindox
+Contribute to amkaamarsaikhan/skindox development by creating an account on GitHub.
+Contribute to amkaamarsaikhan/skindox development by creating an account on GitHub.
+Scalability Roadmap
 
-## Deploy on Vercel
+Planned expansion:
+    •    Authentication layer
+    •    Product API integration
+    •    Cart & checkout system
+    •    CMS integration
+    •    CI/CD pipeline
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+⸻
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment
+
+Hosted on Vercel with automatic preview builds.
+
+⸻
+
+Author
+
+Amarjargal Amarsaikhan
+Frontend Developer
+GitHub: https://github.com/amkaamarsaikhan
